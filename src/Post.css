@@ -1,0 +1,81 @@
+.post{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+}
+.post__top{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+.post__avatar{
+    margin-right: 10px;
+}
+.post__topInfo > h3{
+    font-size: medium;
+}
+.post__topInfo > p{
+    color: grey;
+    font-size: small;
+}
+.post__bottom{
+    margin: 10px 0;
+    padding: 15px 25px;
+
+}
+.post__image > img{
+    width: 100%;
+}
+.post__interaction{
+    padding: 10px 20px;
+}
+.post__interaction > hr{
+    width: 98%;
+    border: none;
+    border-top: 1px solid lightgrey;
+    overflow: visible;
+    text-align: center;
+    height: 1px;
+    margin: 10px 0;
+
+}
+.post__interactionTop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.post__interactionTop > p{
+    padding-right: 10px;
+}
+.post__interactionTopLike{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.post__interactionTopLike > span{
+    margin-right: 10px;
+}
+.post__interactionBottom{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.post__interactionBottomIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 30%;
+    cursor: pointer;
+}
+.post__interactionBottomIcon > .MuiSvgIcon-root{
+    color: grey;
+    padding: 5px;
+    
+}
+.post__interactionBottomIcon:hover{
+    background:#eff2f5;
+}
